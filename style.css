@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    padding: 16px 48px;
+    height: 80px;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    right: 0;
+    z-index: 1000; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+body {
+    padding-top: 80px; 
+}
+
+.wix-logo-header {
+    height: 30px;
+    width: 75px;
+}
+
+.desktop-icon {
+    height: 26px;
+    width: 31px;
+}
+
+.header-right-part {
+    display: flex;
+    width: 58%;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #20303c;
+}
+
+.header-icons-div {
+    display: flex;
+    align-items: center;
+}
+
+.header-right-text-and-button {
+    display: flex;
+    align-items: center;
+}
+
+.small-vertical-line {
+    border-bottom: none;
+    border-left: none;
+    border-top: none;
+    border-color: #20303c;
+    height: 25px;
+    margin: 0 25px;
+}
+
+.read-more {
+    margin-left: 24px;
+    margin-right: 27px;
+    text-decoration: underline;
+    font-size: 14px;
+    
+}
+
+.header-button {
+    background: #116dff;
+    border: none;
+    border-radius: 21px;
+    color: #fff;
+    cursor: pointer;
+    line-height: 42px;
+    margin-right: 0;
+    padding: 0 27px;
+    font-size: 16px;
+}
+
+.black-section {
+    width: 100%;
+    height: 80px;
+    padding: 16px 48px;
+    background-color: black;
+    position: fixed;
+}
+
+.daniel-russo-logo-div {
+    display: flex;
+    align-items: center;
+    color: rgb(179 , 159, 121);
+    gap: 7px;
+}
+
+.daniel-russo-logo {
+    background-color: transparent;
+    filter: rgb(179 , 159, 121);
+    width: 46px;
+    height: 46px;
+}
+
+.daniel-russo-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    letter-spacing: 4px;
+}
+
+.fix-nav-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar {
+    width: 44%;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;  
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    letter-spacing: 3px;
+    background-color: black;
+}
+
+.nav-bar-item:hover {
+    color: rgb(179 , 159, 121);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.latest-work-section {
+    width: 100%;
+    height: 680px;
+    background-size: cover;
+    background-image: url(./assets/first-gif.gif);
+
+}
